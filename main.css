@@ -1,0 +1,280 @@
+body {
+  width: 1920px;
+  background-image: url(./img/uber_bg.png);
+  background-size: 1920px 850px;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+/* header */
+
+.header-top {
+  display: flex;
+  width: 1920px;
+  height: 50px;
+  background: #212121;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 15px;
+  align-items: center;
+  border-right: 1px dashed #000000;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-style: normal;
+}
+
+.nav-link:last-child {
+  border-right: none;
+  margin: 0;
+}
+
+.header-bottom {
+  width: 1920px;
+  height: 87px;
+  opacity: 0.6;
+  background: #000000;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  width: 954px;
+  height: 87px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.uber-partner {
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 13px;
+  align-items: center;
+
+  margin-top: 0;
+  margin-right: 60px;
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.call-text  {
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+.call-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 45px;
+}
+
+.make-call {
+  width: 172px;
+  height: 46px;
+  align-items: center;
+  text-align: center;
+}
+
+/* main */
+
+.main-text {
+  width: 985px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.company {
+  margin-top: 45px;
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.invite {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+.progress {
+  font-size: 18px;
+  margin-top: 14px;
+  line-height: 24px;
+}
+
+.salary {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.request {
+  display: flex;
+  width: 259px;
+  height: 63px;
+  align-items: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.advantages {
+  display: flex;
+  width: 113px;
+  height: 24px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 11px;
+  text-transform: uppercase;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-top: 192px;
+}
+
+.reasons {
+  color: #222222;
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 33px;
+}
+
+.icons {
+  width: 116px;
+  height: 116px;
+
+  background: #1EACC7;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 65%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 16px;
+}
+
+.header-left {
+  color: #1EACC7;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.text-left {
+  color: #202020;
+  font-size: 15px;
+}
+
+.header-right {
+  color: #1EACC7;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.text-right {
+  color: #202020;
+  font-size: 15px;
+}
+
+.row-text-left {
+  margin-left: 25px;
+  width: 371px;
+}
+
+.row-text-right {
+  width: 345px;
+  margin-left: 25px;
+}
+
+.wallet {
+  background-image: url(./img/icons/wallet.png);
+  background-size: 75%;
+}
+
+.canvas {
+  background-image: url(./img/icons/canvas.png);
+  margin-left: 70px;
+}
+
+.second {
+  margin-top: 26px;
+}
+
+.cash {
+  background-image: url(./img/icons/cash.png);
+  background-size: 85%;  
+}
+
+.calendar {
+  background-image: url(./img/icons/calendar.png);
+  margin-left: 70px;
+}
+
+.third {
+  margin-top: 26px;
+}
+
+.keys {
+  background-image: url(./img/icons/keys.png);
+  background-size: 50%;
+}
+
+.geoposition {
+  background-image: url(./img/icons/geoposition.png);
+  background-size: 60%;
+  margin-left: 70px;
+}
+
+.fourth {
+  margin-top: 26px;
+}
+
+.cellphone {
+  background-image: url(./img/icons/cellphone.png);
+  background-size: 70%;
+}
+
+.vehicle {
+  background-image: url(./img/icons/vehicle.png);
+  margin-left: 70px;
+}
+
